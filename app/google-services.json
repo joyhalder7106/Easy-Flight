@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "983115100449",
+    "project_id": "course-design-f96bb",
+    "storage_bucket": "course-design-f96bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983115100449:android:bfa90113c0a71bdce84e60",
+        "android_client_info": {
+          "package_name": "com.example.coursedesign"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWKSktB1cW9LhGEKuJa2P-CFjDKBBTrZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983115100449:android:c50311755cba6530e84e60",
+        "android_client_info": {
+          "package_name": "com.example.easyflight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWKSktB1cW9LhGEKuJa2P-CFjDKBBTrZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

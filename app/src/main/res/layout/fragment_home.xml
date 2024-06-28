@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Home Fragment Content -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Profile"
+        android:textSize="40sp"
+        android:fontFamily="@font/francois_one"
+        android:id="@+id/heading_user_txt"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="75dp"
+        android:id="@+id/linLayout"
+        >
+        <TextView
+            android:id="@+id/userProfile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:text="Welcome, "
+            android:textStyle="italic"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/userLocation_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Lives in, "
+            android:textStyle="italic"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bookedFlightHeading"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:text="Booked Flights"
+        android:textStyle="bold|italic"
+        android:textColor="#2196F3"
+        android:layout_below="@id/linLayout"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_id"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/bookedFlightHeading"/>
+
+
+    </RelativeLayout>

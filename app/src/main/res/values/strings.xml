@@ -1,0 +1,17 @@
+<resources>
+    <string name="from_prompt">From</string>
+    <string name="to_prompt">To</string>
+    <string-array name="locations_array">
+        <item>Choose</item>
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Morocco</item>
+        <item>Nanjing</item>
+        <item>Shanghai</item>
+        <item>Kunming</item>
+        <item>Guangzhou</item>
+        <!-- Add more locations as needed -->
+    </string-array>
+    <string name="app_name">Trip</string>
+    <string name="developer_name">Developed by: Njupt </string>
+</resources>
