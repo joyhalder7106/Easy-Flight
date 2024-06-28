@@ -77,7 +77,7 @@ import java.net.URL;
         public interface OnAirTransferListener {
             void onAirTransferSuccess(JSONArray flights);
             void onAirTransferError(String errorMessage);
-            // ari transfer
+            // air transfer
         }
     }
 
